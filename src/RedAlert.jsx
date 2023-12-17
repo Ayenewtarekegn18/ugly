@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const RedAlert = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [audio] = useState(
-    new Audio("https://youtu.be/If9VmBlp82c?si=XfCMAuBAaVnp0SIc")
+    new Audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
   );
 
   const handleButtonClick = () => {
